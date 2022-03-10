@@ -598,12 +598,18 @@ textarea::-webkit-outer-spin-button {
   margin-top: 8px;
   font-weight: 600;
   font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .recent-order-area .menu-price {
   font-size: 13px;
   font-weight: 700;
   color: #ff3d3b;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .container {
