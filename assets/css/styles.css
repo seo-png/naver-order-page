@@ -594,6 +594,18 @@ textarea::-webkit-outer-spin-button {
   height: 16px;
 }
 
+.recent-order-area .menu-name {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.recent-order-area .menu-price {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ff3d3b;
+}
+
 .container {
   padding-top: 94px;
 }
