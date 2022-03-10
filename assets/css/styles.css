@@ -510,6 +510,8 @@ textarea::-webkit-outer-spin-button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   padding: 8px;
   border-right: 1px solid #f2f2f2;
   line-height: 1.42;
@@ -578,9 +580,18 @@ textarea::-webkit-outer-spin-button {
   position: absolute;
   bottom: 0;
   right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 6px;
   bottom: 1px solid #e5e5e5;
   border-radius: 100%;
+  background-color: #fff;
+}
+
+.recent-order-area .ico-cart {
+  width: 16px;
+  height: 16px;
 }
 
 .container {
