@@ -302,6 +302,14 @@ textarea::-webkit-outer-spin-button {
   line-height: 46px;
 }
 
+.menu-category-area {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 94px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
 .order-info-area {
   padding: 10px 18px 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
