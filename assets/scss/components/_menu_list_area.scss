@@ -1,0 +1,19 @@
+.menu-list-area {
+  padding: 28px $m-padding 10px;
+  background-color: #fff;
+
+  &:not(.new):not(.popular) {
+    margin-top: 10px;
+  }
+
+  &.new {
+    border-bottom: 1px solid $booking-color-border144;
+  }
+
+  &.is-closed {
+    
+  }
+  .menu-category {
+
+  }
+}
