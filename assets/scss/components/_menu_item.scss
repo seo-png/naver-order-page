@@ -30,6 +30,29 @@
       bottom: 0;
       background-color: rgba(0,0,0,.06);
     }
+
+    .menu-img {
+      display: block;
+    }
+  } 
+}
+
+.menu-name-group {
+  display: flex;
+  align-items: center;
+
+  .menu-name {
+    font-size: 17px;
+    line-height: 22;
+    font-weight: 700;
+    color: $booking-color-text6;
   }
-  
+
+  .ico-new {
+    margin-left: 4px;
+  }
+
+  .badge-popular {
+    margin-left: 6px;
+  }
 }
