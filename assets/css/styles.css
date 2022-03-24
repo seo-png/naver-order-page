@@ -440,7 +440,7 @@ textarea::-webkit-outer-spin-button {
 
 .menu-name-group .menu-name {
   font-size: 17px;
-  line-height: 22;
+  line-height: 22px;
   font-weight: 700;
   color: #333;
 }
@@ -878,7 +878,7 @@ textarea::-webkit-outer-spin-button {
   padding: 0 5px;
   border-radius: 10px;
   font-size: 11px;
-  line-height: 16;
+  line-height: 16px;
   font-weight: 700;
   background-color: #ff61a7;
   color: #fff;
