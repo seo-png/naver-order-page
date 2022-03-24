@@ -453,6 +453,30 @@ textarea::-webkit-outer-spin-button {
   margin-left: 6px;
 }
 
+.menu-info-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.menu-info-group .menu-grade {
+  font-weight: 700;
+  color: #333;
+}
+
+.menu-info-group .menu-grade .ico-star {
+  margin-right: 2px;
+}
+
+.menu-info-group .menu-grade + .menu-number-of-order::before {
+  content: '';
+  display: inline-block;
+}
+
 .menu-list-area {
   padding: 28px 18px 10px;
   background-color: #fff;
