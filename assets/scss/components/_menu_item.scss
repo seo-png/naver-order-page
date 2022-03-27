@@ -42,6 +42,14 @@
     color: $booking-color-text5;
     @include multi-ellipsis(14px, 19px, 2);
   }
+
+  .menu-price {
+    margin-top: 4px;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 700;
+    color: $point-color;
+  }
 }
 
 .menu-name-group {

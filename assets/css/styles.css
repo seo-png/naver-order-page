@@ -443,6 +443,14 @@ textarea::-webkit-outer-spin-button {
   /* autoprefixer: off */
 }
 
+.menu-item .menu-price {
+  margin-top: 4px;
+  line-height: 1.4;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ff3d3b;
+}
+
 .menu-name-group {
   display: -webkit-box;
   display: -ms-flexbox;
