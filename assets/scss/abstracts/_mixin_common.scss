@@ -3,3 +3,9 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+@mixin multi-ellipsis($font-size, $line-height, $lines) {
+  font-size: $font-size;
+  line-height: $line-height;
+  max-height: $line-height + $lines;
+}

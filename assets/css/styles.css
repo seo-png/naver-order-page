@@ -429,6 +429,12 @@ textarea::-webkit-outer-spin-button {
   display: block;
 }
 
+.menu-item .menu-desc {
+  margin-top: 4px;
+  letter-spacing: -.4px;
+  color: #8f8f8f;
+}
+
 .menu-name-group {
   display: -webkit-box;
   display: -ms-flexbox;
