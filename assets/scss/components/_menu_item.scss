@@ -75,7 +75,14 @@
       &::before {
         content: '';
         display: inline-block;
+        width: 1px;
+        height: 12px;
+        margin: 0 8px;
+        background-color: $booking-color-bg168;
+        transform: translateY(1px);
       }
     }
   }
+
+  
 }

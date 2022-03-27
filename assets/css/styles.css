@@ -475,6 +475,12 @@ textarea::-webkit-outer-spin-button {
 .menu-info-group .menu-grade + .menu-number-of-order::before {
   content: '';
   display: inline-block;
+  width: 1px;
+  height: 12px;
+  margin: 0 8px;
+  background-color: #ededed;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
 }
 
 .menu-list-area {
