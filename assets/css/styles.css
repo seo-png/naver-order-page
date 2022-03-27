@@ -433,6 +433,14 @@ textarea::-webkit-outer-spin-button {
   margin-top: 4px;
   letter-spacing: -.4px;
   color: #8f8f8f;
+  font-size: 14px;
+  line-height: 19px;
+  max-height: 38px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  /* autoprefixer: off */
 }
 
 .menu-name-group {
