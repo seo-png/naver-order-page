@@ -483,6 +483,17 @@ textarea::-webkit-outer-spin-button {
           transform: translateY(1px);
 }
 
+.menu-info-group .menu-number-of-order {
+  color: #8f8f8f;
+}
+
+.menu-info-group .menu-number-of-order em {
+  margin-left: 4px;
+  font-style: normal;
+  font-weight: 700;
+  color: #333;
+}
+
 .menu-list-area {
   padding: 28px 18px 10px;
   background-color: #fff;

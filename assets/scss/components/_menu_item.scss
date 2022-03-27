@@ -84,5 +84,14 @@
     }
   }
 
-  
+  .menu-number-of-order {
+    color: $booking-color-text5;
+
+    em {
+      margin-left: 4px;
+      font-style: normal;
+      font-weight: 700;
+      color: $booking-color-text6;
+    }
+  }
 }
