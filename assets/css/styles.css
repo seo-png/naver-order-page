@@ -503,6 +503,8 @@ textarea::-webkit-outer-spin-button {
 }
 
 .menu-info-group .menu-grade {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   font-weight: 700;
   color: #333;
 }
@@ -523,6 +525,8 @@ textarea::-webkit-outer-spin-button {
 }
 
 .menu-info-group .menu-number-of-order {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   color: #8f8f8f;
 }
 
