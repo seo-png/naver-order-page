@@ -468,6 +468,11 @@ textarea::-webkit-outer-spin-button {
   border: 1px solid #e5e5e5;
 }
 
+.menu-item .btn-cart .ico-cart {
+  width: 20px;
+  height: 20px;
+}
+
 .menu-name-group {
   display: -webkit-box;
   display: -ms-flexbox;

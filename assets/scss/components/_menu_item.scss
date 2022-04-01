@@ -60,6 +60,10 @@
     height: 40px;
     border-radius: 5px;
     border: 1px solid $booking-color-border150;
+    .ico-cart {
+      width: 20px;
+      height: 20px;
+    }
   }
 }
 
@@ -119,7 +123,7 @@
       margin-left: 4px;
       font-style: normal;
       font-weight: 700;
-      color: $booking-color-text6;
+      color: $booking-color-text5;
     }
   }
 }
