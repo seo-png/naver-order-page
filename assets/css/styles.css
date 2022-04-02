@@ -452,6 +452,7 @@ textarea::-webkit-outer-spin-button {
 }
 
 .menu-item .btn-cart {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -471,6 +472,21 @@ textarea::-webkit-outer-spin-button {
 .menu-item .btn-cart .ico-cart {
   width: 20px;
   height: 20px;
+}
+
+.menu-item .btn-cart .num {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  background-color: #ff3d3b;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
 }
 
 .menu-name-group {

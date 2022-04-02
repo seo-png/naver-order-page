@@ -52,6 +52,7 @@
   }
 
   .btn-cart {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +64,20 @@
     .ico-cart {
       width: 20px;
       height: 20px;
+    }
+    .num {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      width: 18px;
+      height: 18px;
+      line-height: 18px;
+      border-radius: 50%;
+      background-color: $point-color;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+      color: #fff;
     }
   }
 }
@@ -123,7 +138,7 @@
       margin-left: 4px;
       font-style: normal;
       font-weight: 700;
-      color: $booking-color-text5;
+      color: $booking-color-text6;
     }
   }
 }
