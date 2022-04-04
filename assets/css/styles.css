@@ -644,6 +644,18 @@ textarea::-webkit-outer-spin-button {
   vertical-align: middle;
 }
 
+.order-box-area {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #e8e8e8;
+  -webkit-box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.03);
+          box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  z-index: 9100;
+}
+
 .order-info-area {
   padding: 10px 18px 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
