@@ -308,6 +308,7 @@ textarea::-webkit-outer-spin-button {
   top: 94px;
   margin-top: 10px;
   background-color: #fff;
+  z-index: 5500;
 }
 
 .menu-category-area .common-inner {
