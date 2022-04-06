@@ -13,4 +13,17 @@
     justify-content: space-between;
     padding: 12px $m-padding;
   }
+
+  .menu-name {
+    font-size: 15px;
+    color: $booking-color-text6;
+    @include ellipse;
+  }
+
+  .menu-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: $point-color;
+    @include ellipse;
+  }
 }
