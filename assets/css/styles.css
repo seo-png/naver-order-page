@@ -649,6 +649,7 @@ textarea::-webkit-outer-spin-button {
   bottom: 0;
   left: 0;
   right: 0;
+  height: 70px;
   border-top: 1px solid #e8e8e8;
   -webkit-box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.03);
           box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.03);
@@ -700,6 +701,31 @@ textarea::-webkit-outer-spin-button {
   background-image: linear-gradient(to right, #01d760, #0ad18e);
   font-weight: 700;
   letter-spacing: -.3px;
+  color: #fff;
+}
+
+.order-box-area .icon {
+  position: relative;
+  margin-left: 6px;
+}
+
+.order-box-area .ico-cart {
+  width: 20px;
+  height: 20px;
+}
+
+.order-box-area .num {
+  position: absolute;
+  top: -5px;
+  right: -4px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 50%;
+  background-color: #ff3d3b;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
   color: #fff;
 }
 
@@ -1015,6 +1041,7 @@ textarea::-webkit-outer-spin-button {
 
 .container {
   padding-top: 94px;
+  padding-bottom: 70px;
   background-color: #f4f7f9;
 }
 
