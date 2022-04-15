@@ -1014,6 +1014,7 @@ textarea::-webkit-outer-spin-button {
 .recent-order-area .recent-menu-item {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+  position: relative;
   padding-left: 16px;
   width: 80px;
   text-align: center;
@@ -1058,8 +1059,8 @@ textarea::-webkit-outer-spin-button {
 
 .recent-order-area .badge-cart {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 50px;
+  right: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
