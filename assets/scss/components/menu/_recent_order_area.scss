@@ -30,12 +30,15 @@
   .recent-menu-item {
     box-sizing: content-box;
     position: relative;
-    padding-left: 16px;
+    padding-right: 16px;
     width: 80px;
     text-align: center;
     &.is-ordered {
-      padding-right: 16px;
+      padding-left: 16px;
       border-right: 1px solid $booking-color-bg102;
+      & + .recent-menu-item {
+        padding-left: 16px;
+      }
     }
     &:last-child {
       padding-right: $m-padding;
@@ -72,7 +75,7 @@
 
   .badge-cart {
     position: absolute;
-    bottom: 50px;
+    top: 50px;
     right: 16px;
     display: flex;
     padding: 6px;
